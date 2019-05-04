@@ -30,6 +30,9 @@ func main() {
 		case "f":
 			fmt.Println("using firefox")
 			browser = "Firefox"
+		case "s":
+			fmt.Println("using safari")
+			browser = "Safari"
 		}
 		if len(os.Args) < 3 {
 			fmt.Println("missing address")
